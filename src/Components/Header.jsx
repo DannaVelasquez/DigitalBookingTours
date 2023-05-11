@@ -17,9 +17,12 @@ const Header = () => {
             </Link>
             </div>
             <div className="header-container">
-            <button className="button-header">Crear Cuenta</button>
-            <br/>
-            <button className="button-header">Iniciar Sesión</button>
+            <Link to={routes.register}>
+                <button className="button-header">Crear Cuenta</button>
+            </Link>
+            <Link to={routes.login}>
+                <button className="button-header">Iniciar Sesión</button>
+            </Link>
             </div>
         </div>
     )
