@@ -8,7 +8,7 @@ const Header = () => {
         <div className="header">
             <div className="header-container">
             <Link to={routes.home}>
-            <img src={window.location.origin + "/images/Logo.png"} alt="Logo"/>
+            <img src={window.location.origin + "/images/LogoDB.jpg"} alt="Logo"/>
             </Link>
             <br/>
             <br/>
@@ -17,9 +17,9 @@ const Header = () => {
             </Link>
             </div>
             <div className="header-container">
-            <button>Crear Cuenta</button>
+            <button className="button-header">Crear Cuenta</button>
             <br/>
-            <button>Iniciar Sesión</button>
+            <button className="button-header">Iniciar Sesión</button>
             </div>
         </div>
     )
