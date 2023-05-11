@@ -68,7 +68,7 @@ button:focus-visible {
   }*/
 
   /* Added styles */
-  .header {
+   .header {
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -76,7 +76,8 @@ button:focus-visible {
     justify-content:space-around;
     background-color: #45cbdf;
     font-size: 15px;
-    position: relative;
+    position: fixed;
+    top: 0%;
     
   }
 
@@ -86,7 +87,6 @@ button:focus-visible {
     align-items: center;
     justify-content:space-between;
     position: relative;
-    
   }
 
   h1{
@@ -107,10 +107,11 @@ button:focus-visible {
     font-size: 1em;
     font-weight: 500;
     font-family: inherit;
-    background-color: #45cbdf;
+    background-color: #d5e0e2;
     cursor: pointer;
     transition: border-color 0.25s;
     margin-left: -5%;
+    box-shadow: 2px 2px 2px 1px gray
   }
   button:hover {
     background-color: #45cbdf;
@@ -125,4 +126,32 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 
+  body{
+    margin: 0%;
+  }
+  /*Modelo responsive en pantallas de máximo 389px*/
+  @media (max-width: 390px){
 
+  .header {
+    width: 100%;
+    background-color: #45cbdf;
+    font-size: 11px;
+    position: relative;
+    position: fixed;
+    top: 0%;
+  }
+
+  button {
+    border-radius: 8px;
+    border: 1px solid transparent;
+    padding: 0.4em 1.3em;
+    font-size: 0.7em;
+    font-weight: 500;
+    font-family: inherit;
+    background-color: #d5e0e2;
+    cursor: pointer;
+    transition: border-color 0.25s;
+    margin-left: -1%;
+    margin-right: 8%;
+  }
+  }
