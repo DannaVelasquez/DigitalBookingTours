@@ -1,8 +1,8 @@
-import Header from './Components/Header'
+import Header from './Components/Header/Header'
 import { Route, Routes } from 'react-router-dom';
 import { routes } from './routes';
 import Home from './Routes/Home';
-import Footer from './Components/Footer';
+import Footer from './Components/Footer/Footer';
 import Login from './Routes/Login';
 import Register from './Routes/Register';
 

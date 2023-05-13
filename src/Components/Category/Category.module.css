@@ -1,0 +1,14 @@
+.category {
+  height: 300px;
+  font-family: 'Roboto', sans-serif;
+  background-color: #ffffff;
+  color: #545776;
+  width: 100%;
+  align-content: center;
+  padding: 0.5%;
+  
+}
+
+.h3 {
+  padding-left: 3%;
+}

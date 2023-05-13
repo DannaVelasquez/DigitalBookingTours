@@ -1,0 +1,13 @@
+.recom {
+  height: 300px;
+  font-family: 'Roboto', sans-serif;
+  background-color: #f3f1ed;
+  color: #545776;
+  align-content: center;
+  padding: 0.5%;
+  width: 100%;
+}
+
+.h3 {
+  padding-left: 3%;
+}
