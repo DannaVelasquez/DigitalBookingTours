@@ -1,24 +1,25 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import styles from "./Card.module.css"
 
-const Card = ({ name, id }) => {
+const Card = ({ tour }) => {
   return (
-    <div className="card">
+    <div className={styles.card}>
       <img
         className="card-img"
-        src="/public/images/turismo.jpg"
+        src={tour.image}
         alt="Turismo"
         width={200}
       />
-      <h2>{name}</h2>
       <Link
-        key={id}
-        to={`/detail/${id}`}
+        key={tour.id}
+        to={"/detail/" + tour.id}
         className="button-detail"
         title="Details"
       >
-        Detail
+        {tour.name}
       </Link>
+      <h2>{tour.house}</h2>
     </div>
   );
 };

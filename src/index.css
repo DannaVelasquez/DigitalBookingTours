@@ -70,6 +70,8 @@ button:focus-visible {
   /* Added styles */
   h1{
     text-align: center;
+    margin-top: 0%;
+    padding-top: 1%;
   }
 
   button:hover {
@@ -89,7 +91,6 @@ button:focus-visible {
   }
 
   .login{
-    padding-top: 50px;
     height: 620px;
     background-color: #F3F1ED;
     color: #1DBEB4;

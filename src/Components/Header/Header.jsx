@@ -8,7 +8,7 @@ const Header = () => {
     <div className={styles.header}>
       <div className={styles.container}>
         <Link to={routes.home}>
-          <img src={window.location.origin + "/images/LogoDB.jpg"} alt="Logo" />
+          <img className={styles.logo} src={window.location.origin + "/images/LogoDB.jpg"} alt="Logo" />
         </Link>
         <br />
         <br />
